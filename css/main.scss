@@ -2,6 +2,36 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #f2ede9;
+  color: #141b14;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya', serif;
+  //color: #4a2e14;
+}
+
+h1 {
+    text-align: center;
+    //color: #4a2e14;
+}
+
+a {
+  color: #30415c;
+
+  &:hover {
+    color: lighten(#30415c, 10%);
+  }
+  &:active {
+    color: lighten(#30415c, 20%);
+  }
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {
@@ -11,22 +41,8 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alegreya', serif;
-}
-
-h1 {
-    text-align: center;
-}
-
 .no-margin {
   margin-bottom: 0px;
-}
-
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
@@ -37,6 +53,6 @@ h1 {
 
 @media (max-width: 480px) {
   html {
-      font: $typl8-font-weight #{$typl8-font-size - 30 + "%"}/#{$typl8-line-height} $typl8-custom-font, $typl8-font-family;
+      font: $typl8-font-weight #{$typl8-font-size - 20 + "%"}/#{$typl8-line-height} $typl8-custom-font, $typl8-font-family;
   }
 }
