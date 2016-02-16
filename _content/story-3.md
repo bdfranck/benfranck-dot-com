@@ -1,0 +1,3 @@
+#### I helped Alberta Land Titles find an effective design for a new web application.
+
+Alberta Land Titles was building a web application to help their workers register legal documents. I began by interviewing staff and observing how they processed paper documents. With the resulting research insights I created multiple HTML prototypes. I gave walkthroughs of each version of the prototype to staff, stakeholders, and developers. After iterating through several ideas I finally reached a design that both met the needs of the staff and the constraints of the technology. The developers used the prototype as a primary reference as they built the initial application.

@@ -1,0 +1,3 @@
+#### I helped BC Justice find an effective design for a new web application.
+
+BC Justice was building a web application to support a key staff workflow. I visited several offices in BC to observe how staff worked with paper. From this research I helped create several visual models to help stakeholders understand the opportunities and constraints of the workflow. I created static mockups and HTML prototypes of potential designs. I presented each version to staff, stakeholders, and developers. After many revisions I was able to present a prototype that balanced both the needs of the users, the organization, and the development team. The developers used the prototype as a primary reference as they built the initial application.

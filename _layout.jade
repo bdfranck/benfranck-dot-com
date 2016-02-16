@@ -1,21 +1,16 @@
 doctype
 html
   head
-    title Ben Franck - UX Designer
+    title Ben Franck - Interaction Designer
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="shortcut icon" href="/favicon.png")
     link(rel="stylesheet" href="/css/main.css")
     link(href='https://fonts.googleapis.com/css?family=Open+Sans|Alegreya:700' rel='stylesheet' type='text/css')
-   
+    
   body
     .container
       != yield
       
-    script.
-      (function(document){
-        var stamp = document.getElementById("stamp");
-        stamp.href = "mail" + "to:" + "benjamin." + "franck" + "@" + "gmail." + "com";
-      })(document);
-    
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
